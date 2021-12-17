@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+article.filme {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+}
+
+article.filme h2 {
+  font-size: 2.4rem;
+
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+article.filme .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+article.filme img {
+  height: 18rem;
+  border-radius: 0.8rem;
+}
+
+article.filme p {
+  margin: 2rem 2rem 2rem;
+
+  font-size: 1.2rem;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons a {
+  padding: 1rem;
+  width: 6rem;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  margin: 0rem 2rem;
+
+  background-color: brown;
+  color: white;
+
+  cursor: pointer;
+
+  border-radius: 0.8rem;
+
+  text-align: center;
+}

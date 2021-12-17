@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listaFilmes {
+  margin: 2rem;
+}
+
+.listaFilmes article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+
+  background-color: #ffff;
+
+  border-radius: 0.8rem;
+
+  margin: 1rem;
+}
+
+.listaFilmes article .nomeFilme {
+  margin: 1rem 0.5rem;
+}
+
+.listaFilmes article .capaFilme {
+  border-radius: 0.8rem;
+  width: 100%;
+}
+
+.listaFilmes article .btnAcessar {
+  margin-top: 2rem;
+
+  background-color: brown;
+  color: white;
+
+  font-size: 1.4rem;
+
+  cursor: pointer;
+
+  width: 100%;
+  height: 2.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+
+  border-radius: 0.8rem;
+
+  margin-bottom: 2rem;
+}
