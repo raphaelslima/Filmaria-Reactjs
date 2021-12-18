@@ -3,10 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1;
+
+  margin-top: 8rem;
 }
 
-.warming a {
+.btn-notFound {
   color: white;
   background-color: brown;
 
@@ -17,5 +18,5 @@
 
   cursor: pointer;
 
-  margin-bottom: -20rem;
+  margin-top: 2.5rem;
 }
