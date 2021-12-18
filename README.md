@@ -9,6 +9,7 @@ Projeto de um site que possui informações de alguns filmes.
 <img src="./public/screenshots/img3.PNG" />
 <img src="./public/screenshots/img4.PNG" />
 <img src="./public/screenshots/img5.PNG" />
+<img src="./public/screenshots/img6.PNG" />
 
 ## Tecnologias utilizadas:
 
@@ -23,7 +24,7 @@ Projeto de um site que possui informações de alguns filmes.
 ## Sobre a aplicação:
 
 Esse sistema consome dados de uma API usando axios e usa o React.js para modelar e mostrar os dados na tela. Toda a parte de rota foi feita usando recursos do
-framework. Além de escolher um filme e acessar suas informações, o usuário pode pesquisar seu trailer e salvar em uma lista de favoritos.
+framework. Além de escolher um filme e acessar suas informações, o usuário pode pesquisar seu trailer e salvar em uma lista de favoritos, além de uma página "not found" caso o usuário erre a rota.
 
 ## Por que esse sistema?
 
